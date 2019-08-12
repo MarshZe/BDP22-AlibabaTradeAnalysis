@@ -1,3 +1,4 @@
+/*
 package com.aura.action;
 
 import com.alibaba.fastjson.JSONArray;
@@ -82,3 +83,4 @@ public class HBaseController {
     }
 
 }
+*/

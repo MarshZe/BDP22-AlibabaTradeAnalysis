@@ -11,7 +11,7 @@
 	
 	<appender name="DAILYROLLING" class="org.apache.log4j.DailyRollingFileAppender">
 		<param name="Threshold" value="INFO" />
-		<param name="file" value="${webaura.root}/logs/info.log" />
+		<param name="file" value="/home/ze/logs/info.log" />
 		<param name="DatePattern" value="'.'yyyy-MM-dd" /> 
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern" value="%-d{yyyy-MM-dd HH\:mm\:ss} [%p]%c - %m%n" />
@@ -20,7 +20,7 @@
 	
 	<appender name="ROLLING" class="org.apache.log4j.RollingFileAppender">
 		<param name="Threshold" value="ERROR" />
-		<param name="file" value="${webaura.root}/logs/error.log" />
+		<param name="file" value="/home/ze/logs/error.log" />
 		<param name="MaxFileSize" value="1024KB" />
 		<param name="MaxBackupIndex" value="10" />
 		<layout class="org.apache.log4j.PatternLayout">
